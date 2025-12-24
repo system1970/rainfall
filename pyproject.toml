@@ -1,12 +1,12 @@
 [project]
-name = "rainfall"
+name = "rainfall-cli"
 version = "0.1.0"
 description = "Call functions that don't exist. Let AI figure it out."
 readme = "README.md"
 requires-python = ">=3.10"
 license = "MIT"
 authors = [
-    { name = "Your Name", email = "you@example.com" }
+    { name = "system1970" }
 ]
 keywords = ["ai", "llm", "python", "prototyping", "gemini", "stub", "function"]
 classifiers = [
@@ -37,9 +37,9 @@ dev = [
 rainfall = "rainfall.cli:main"
 
 [project.urls]
-Homepage = "https://github.com/yourusername/rainfall"
-Repository = "https://github.com/yourusername/rainfall"
-Documentation = "https://github.com/yourusername/rainfall#readme"
+Homepage = "https://github.com/system1970/rainfall"
+Repository = "https://github.com/system1970/rainfall"
+Documentation = "https://github.com/system1970/rainfall#readme"
 
 [build-system]
 requires = ["hatchling"]
