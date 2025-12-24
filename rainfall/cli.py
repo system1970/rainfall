@@ -11,7 +11,7 @@ from rainfall.core import execute_with_rainfall
 @click.command()
 @click.argument("script", type=click.Path(exists=True, path_type=Path))
 @click.option("--api-key", envvar="GEMINI_API_KEY", help="Gemini API key")
-@click.option("--model", default="gemini-2.0-flash", help="Model to use")
+@click.option("--model", default="gemini-3-flash-preview", help="Model to use")
 @click.option("--verbose", "-v", is_flag=True, help="Show LLM prompts and responses")
 @click.option("--dry-run", is_flag=True, help="Show stub functions without executing")
 @click.option("--temperature", default=0.2, type=float, help="LLM temperature (0-1)")

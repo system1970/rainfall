@@ -10,7 +10,7 @@ class RainfallConfig:
     
     # API settings
     api_key: str | None = None
-    model: str = "gemini-2.0-flash"
+    model: str = "gemini-3-flash-preview"
     
     # Generation settings
     temperature: float = 0.2  # Lower = more deterministic
